@@ -13,10 +13,10 @@ npm install
 npx expo start
 ```
 
-Use `a` to open an Android emulator or `i` to open an iOS Simulator from the Expo terminal. To check TypeScript types, run:
+Use `a` to open an Android emulator or `i` to open an iOS Simulator from the Expo terminal. To check TypeScript types, run the project script:
 
 ```sh
-npx tsc --noEmit
+npm run typecheck
 ```
 
 ## Architecture
